@@ -1,0 +1,23 @@
+* {
+    font-family: 'Merienda', cursive;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.quoteTypes {
+    display: flex;
+    justify-content: space-around;
+}
+.quoteTypes > div {
+    display: inline-grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto 30rem ;
+    align-items: end;
+    justify-items: center;
+}
+
+img {
+    width: 15rem;
+}
